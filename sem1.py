@@ -32,7 +32,7 @@ def do_search_dict(word):
 
 if __name__ == '__main__':
     word = input('Введите слово для поиска гласных \n')
-    word = word.strip()
+    #word = word.strip()
 
     found = do_search_dict(word)
     print('found=', found)
